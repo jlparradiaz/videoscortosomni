@@ -1,0 +1,44 @@
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.color-body{
+background-color: rgb(205, 159, 248);
+}
+.container{  
+background-color: rgb(168, 84, 247);         
+display: flex;
+justify-content: center;
+}
+.container1{  
+background-color: rgb(180, 107, 248);         
+display: flex;
+justify-content: center;
+}
+.div-1{    
+justify-content: center;
+background-color: rgb(180, 107, 248);
+}
+.div-2{
+    
+}
+.boton {
+border: 1px solid #300146; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #43008f; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 20px; /*bordes redondos*/
+}
